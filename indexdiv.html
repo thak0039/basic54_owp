@@ -14,6 +14,10 @@
             font-size: 13px;
         }
         
+        .f-left {
+            float: left;
+        }
+        
         .container {
             width: 70%;
             margin: auto;
@@ -34,26 +38,21 @@
         
         .div1 {
             width: 45%;
-            float: left;
         }
         
         .div2 {
             width: 25%;
             padding: 1rem;
-            float: left;
         }
         
         .div3 {
             width: 30%;
-            float: left;
-            color: white;
             background-color: gray;
             margin-bottom: 0;
         }
         
         .div4 {
             margin-left: 2rem;
-            float: left;
             width: 45%;
         }
         
@@ -71,7 +70,6 @@
         }
         
         .img-l {
-            float: left;
             margin: 0 20px 10px 0;
         }
         
@@ -106,45 +104,47 @@
         </div>
     </div>
     <div class="row container">
-        <div id="gray_div" class="div1 bg1">
-            <h2> &lt;h1&gt; to &lt;h6&gt; - Headline Colour and Size Are All The Same </h2>
-            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.repellat! Itaque neque laudantium rerum quia consequatur nihil, autem molestiae alias voluptate. Officiis eaque porro possimus, accusamus voluptates adipisci magni eligendi modi totam
-                cumque magnam corporis earum nam.
-                <a href="#"> Numquam debitis totam </a> et quod dicta praesentium. Inventore ut commodi sed placeat,excepturi atque quisquam nostrum ipsum voluptates et rem. Ad, dignissimos. Consectetur commodi consequuntur cum ut.</p>
-            <img class="img-l" src="./img/imgl.gif" alt="left-image">
-            <ul style="list-style-type:none;">
-                <li>Lorem, ipsum dolor.</li>
-                <li>Debitis, consequatur odio.</li>
-                <li><a href="#">Eaque, animi quae?</a></li>
-                <li>Excepturi, minus. Distinctio.</li>
-            </ul>
-            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic mollitia deleniti sint natus iure nihil assumenda adipisci voluptas odio repellat! Itaque neque laudantium rerum quia consequatur nihil, autem molestiae alias voluptate. Officiis
-                eaque porro possimus, accusamus voluptates adipisci magni eligendi modi totam cumque magnam corporis earum nam.
-                <a href="#"> Numquam debitis totam </a> et quod dicta praesentium. Inventore ut commodi sed placeat, nesciunt earum necessitatibus ad blanditiis nemo excepturi atque quisquam nostrum ipsum voluptates et rem. Ad, dignissimos. Consectetur
-                commodi consequuntur cum ut.</p>
+        <div class="f-left">
+            <div id="gray_div" class="div1 bg1 f-left ">
+                <h2> &lt;h1&gt; to &lt;h6&gt; - Headline Colour and Size Are All The Same </h2>
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.repellat! Itaque neque laudantium rerum quia consequatur nihil, autem molestiae alias voluptate. Officiis eaque porro possimus, accusamus voluptates adipisci magni eligendi modi
+                    totam cumque magnam corporis earum nam.
+                    <a href="#"> Numquam debitis totam </a> et quod dicta praesentium. Inventore ut commodi sed placeat,excepturi atque quisquam nostrum ipsum voluptates et rem. Ad, dignissimos. Consectetur commodi consequuntur cum ut.</p>
+                <img class="img-l f-left " src="./img/imgl.gif" alt="left-image">
+                <ul style="list-style-type:none;">
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Debitis, consequatur odio.</li>
+                    <li><a href="#">Eaque, animi quae?</a></li>
+                    <li>Excepturi, minus. Distinctio.</li>
+                </ul>
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic mollitia deleniti sint natus iure nihil assumenda adipisci voluptas odio repellat! Itaque neque laudantium rerum quia consequatur nihil, autem molestiae alias voluptate. Officiis
+                    eaque porro possimus, accusamus voluptates adipisci magni eligendi modi totam cumque magnam corporis earum nam.
+                    <a href="#"> Numquam debitis totam </a> et quod dicta praesentium. Inventore ut commodi sed placeat, nesciunt earum necessitatibus ad blanditiis nemo excepturi atque quisquam nostrum ipsum voluptates et rem. Ad, dignissimos. Consectetur
+                    commodi consequuntur cum ut.</p>
 
-        </div>
-        <div id="white_div" class="div2">
-            <img class="img-r" src="./img/imgr.gif" alt="left-image">
-            <p style="text-align:left;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic mollitia deleniti sint natus iure nihil assumenda adipisci voluptas odio repellat!autem molestiae alias voluptate. Officiis eaque Consectetur commodi.</p>
+            </div>
+            <div id="white_div" class="div2 f-left">
+                <img class="img-r" src="./img/imgr.gif" alt="left-image">
+                <p style="text-align:left;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic mollitia deleniti sint natus iure nihil assumenda adipisci voluptas odio repellat!autem molestiae alias voluptate. Officiis eaque Consectetur commodi.</p>
 
-            <ol>
-                <li>sad</li>
-                <li>happy</li>
-                <li>dictum</li>
-            </ol>
+                <ol>
+                    <li>sad</li>
+                    <li>happy</li>
+                    <li>dictum</li>
+                </ol>
+            </div>
         </div>
     </div>
     <div class="row2 container">
-        <div style="float: left;">
-            <div class="div3">
+        <div class="f-left">
+            <div class="div3 f-left bgwhite">
                 <h2>Box1</h2>
                 <p style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat error blanditiis nesciunt sunt placeat consectetur enim? Tempore possimus deserunt repudiandae alias id, quod hic perspiciatis nostrum error aperiam quam ab quas! Labore
                     sapiente vel ab, error voluptate perspiciatis magni aspernatur mollitia atque minima, quis fugiat iste asperiores deserunt eum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat error blanditiis nesciunt sunt placeat
                     consectetur enim? Tempore possimus deserunt repudiandae alias id, quod hic perspiciatis nostrum error aperiam quam ab quas! Labore sapiente vel ab, error voluptate perspiciatis magni
                 </p>
             </div>
-            <div class="div4 bg1">
+            <div class="div4 bg1 f-left ">
                 <h2>Box2</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat error blanditiis nesciunt sunt placeat consectetur enim? Tempore possimus deserunt repudiandae alias id, quod hic perspiciatis nostrum error aperiam quam ab quas! Labore
                     sapiente vel ab, error voluptate perspiciatis magni aspernatur mollitia atque minima, quis fugiat iste asperiores deserunt eum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat error blanditiis nesciunt sunt placeat
@@ -155,7 +155,6 @@
         </div>
 
     </div>
-
 
     <div class="footer bgwhite">
 
