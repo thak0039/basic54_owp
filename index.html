@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The owt div</title>
+    <title>basic 10</title>
 
     <style>
         body {
@@ -32,11 +32,18 @@
             color: white;
         }
         
+        .f-left {
+            float: left;
+        }
+        
+        .f-right {
+            float: right;
+        }
+        
         .div2,
         .div1 {
             width: 35%;
             padding: 1rem;
-            float: left;
         }
         
         .nav {
@@ -53,12 +60,10 @@
         }
         
         .img-l {
-            float: right;
             margin: 0 0 10px 10px;
         }
         
         .img-r {
-            float: left;
             border: 5px solid lightgray;
             margin: 0 10px 10px 0;
         }
@@ -88,9 +93,9 @@
         </div>
     </div>
     <div class="row container">
-        <div id="gray_div" class="div1 bg1">
+        <div id="gray_div" class="div1 bg1 f-left">
             <h2> &lt;h1&gt; to &lt;h6&gt; - Headline Colour and Size Are All The Same </h2>
-            <img class="img-l" src="./img/imgl.gif" alt="left-image">
+            <img class="img-l f-right" src="./img/imgr.gif" alt="left-image">
             <ul>
                 <li>Lorem, ipsum dolor.</li>
                 <li>Debitis, consequatur odio.</li>
@@ -103,7 +108,7 @@
                 commodi consequuntur cum ut.</p>
 
         </div>
-        <div id="white_div" class="div2">
+        <div id="white_div" class="div2 f-left">
             <ul style="list-style-type:none;padding: 0;">
                 <li>Lorem ipsum dolor sit.</li>
                 <li>Nobis nihil commodi illo?</li>
@@ -114,7 +119,7 @@
                 eaque porro possimus, accusamus voluptates adipisci magni eligendi modi totam cumque magnam corporis earum nam. Numquam debitis totamet quod dicta praesentium. Inventore ut commodi sed placeat, nesciunt earum necessitatibus ad blanditiis
                 nemo excepturi atque quisquam nostrum ipsum voluptates et rem. Ad, dignissimos. Consectetur commodi consequuntur cum ut.</p>
 
-            <img class="img-r" src="./img/imgr.gif" alt="left-image">
+            <img class="img-r f-left" src="./img/imgl.gif" alt="left-image">
             <p style="text-align:right;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic mollitia deleniti sint natus iure nihil assumenda adipisci voluptas odio repellat! Itaque neque laudantium rerum quia consequatur nihil, autem molestiae alias voluptate. Officiis
                 eaque porro possimus, accusamus voluptates adipisci magni eligendi modi totam cumque magnam corporis earum nam. Numquam debitis totamet quod dicta praesentium. Inventore ut commodi sed placeat, nesciunt earum necessitatibus ad blanditiis
                 nemo excepturi atque quisquam nostrum ipsum voluptates et rem. Ad, dignissimos. Consectetur commodi consequuntur cum ut.</p>
@@ -126,7 +131,7 @@
         <div class="container">
             <h2>Footer</h2>
             <span class="copyright bgwhite"> copyright &copy; 2021 - All Rights Reserved - <a class="bgwhite" href="#">Domain Name</a></span>
-            <span class="bgwhite" style="float: right;">The tamplate by the one web technology </span>
+            <span class="bgwhite f-right">The tamplate by the one web technology </span>
         </div>
 
     </div>
